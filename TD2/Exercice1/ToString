@@ -1,0 +1,7 @@
+public class ToString {
+@FunctionalInterface
+public interface ToString<A> {
+    String show(A x);
+}
+
+}
